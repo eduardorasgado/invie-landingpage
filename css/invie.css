@@ -1,53 +1,30 @@
-/*
-tipo-de-selector {
-	propiedad: valor;
-	propiedad-2: valor;
-}
-*/
-
-
-/*Selector universal*/
-* {
-	border: 1px solid #FFAA7FFF;
-	margin: 10px;
+.titulo {
+	font-size: 70px;
 }
 
-
-/*Selectores de etiqueta*/
-header {
-	background-color: #00FF7FFF;
-}
-
-section {
-	background-color: purple;
-}
-
-/*Selector descendente*/
-
-article h3 {
-	color: green;
-}
-
-
-/*Selectores de clase*/
 .title-a {
-	background-color: yellow;
+	font-size: 24px;
+}
+
+.guitarras {
+	color: #1F313C;
+}
+
+.guitarras h2 {
+	font-size: 35px;
 }
 
 .title-b {
-	background-color: salmon;
+	font-size: 50px;
 }
 
-/*Selector de id*/
-#header {
-	border: 3px solid black;
+.portada {
+	background-image: url("../images/background.png");
+	background-color: white;
+	color: white;
+	font-family: sans-serif;
 }
 
-#portada {
-	border: 3px solid #55FFFFFF;
+.menu {
+	font-size: 24px;
 }
-
-#guitarras {
-	border: 3px solid #FFAA00FF;
-}
-
