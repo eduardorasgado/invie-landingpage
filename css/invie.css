@@ -1,3 +1,53 @@
-body {
-	background-color: SkyBlue;
+/*
+tipo-de-selector {
+	propiedad: valor;
+	propiedad-2: valor;
 }
+*/
+
+
+/*Selector universal*/
+* {
+	border: 1px solid #FFAA7FFF;
+	margin: 10px;
+}
+
+
+/*Selectores de etiqueta*/
+header {
+	background-color: #00FF7FFF;
+}
+
+section {
+	background-color: purple;
+}
+
+/*Selector descendente*/
+
+article h3 {
+	color: green;
+}
+
+
+/*Selectores de clase*/
+.title-a {
+	background-color: yellow;
+}
+
+.title-b {
+	background-color: salmon;
+}
+
+/*Selector de id*/
+#header {
+	border: 3px solid black;
+}
+
+#portada {
+	border: 3px solid #55FFFFFF;
+}
+
+#guitarras {
+	border: 3px solid #FFAA00FF;
+}
+
