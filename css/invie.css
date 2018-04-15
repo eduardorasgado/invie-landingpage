@@ -1,16 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Allerta|Montserrat:400,700');
-
+/*
+* {
+	border: 2px solid red;
+	Viendo con las manecillas del reloj
+	padding: 10px 13px 5px 15px;
+	padding: 10px;
+	margin: 10px;
+}
+*/
 body {
 	font-family: 'Allerta', sans-serif;
+	margin: 0px;
 }
 
 .titulo {
 	font-family: 'Montserrat', sans-serif;
+	margin: 0;
 	font-size: 70px;
+	padding-top: 70px;
+	/*border: 5px solid red;*/
 }
 
 .title-a {
 	font-size: 24px;
+	margin-top: 0;
 }
 
 .guitarras {
@@ -30,9 +43,30 @@ body {
 	background-image: url("../images/background.png");
 	background-color: white;
 	color: white;
-	
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-left: 20px;
+}
+
+.portada button {
+	margin-bottom: 70px;
 }
 
 .menu {
 	font-size: 24px;
 }
+
+.logotipo, .menu, .menu li {
+	display: inline-block;
+}
+
+.menu li {
+	margin-left: 30px;
+}
+
+.menu li a {
+	color: black;
+	font-variant: small-caps;
+}
+
+
