@@ -132,7 +132,8 @@ button:hover {
 .left {
 	float: left;
 	position: relative;
-	top: 80px;
+	top: 140px;
+	width: 350px;
 }
 
 .contenedor-guitarra-a {
@@ -143,9 +144,17 @@ button:hover {
 	margin-left: 370px;
 }
 
+
+/*Pie de pagina o footer*/
 .footer {
 	background-color: #273b47;
 	color: white;
+}
+
+.contacto {
+	display: flex;
+	width: 300px;
+	flex-wrap: wrap;
 }
 
 .contacto img {
@@ -158,10 +167,58 @@ button:hover {
 	color: white;
 }
 .contacto a {
+
 	color: white;
 	text-decoration: none;
+	margin: 10px 10px 10px 0;
 }
 
 .formulario {
 	color: white;
+	/*Flex para separar col1 de col2*/
+	display: flex;
+	width: 400px;
 }
+
+.formulario .submit {
+	border-radius: 8px;
+	background-color: #fd324e;
+	color: white;
+	border: 2px solid #fd324e;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+.formulario .submit:hover {
+	border-radius: 8px;
+	background-color: #FD3690;
+	color: white;
+	border: solid #FD30A5
+}
+
+/*Flexbox*/
+.footer .flex-foot {
+	display: flex;
+	/*ESpaciado entre contacto y formulario */
+	justify-content: space-between;
+}
+
+.col1, .col2 {
+	display: flex;
+	flex-direction: column;
+}
+
+.col1 {
+	margin-right: 15px;
+}
+
+.gender {
+	margin-bottom: 8px;
+}
+
+.intereses, .gender label {
+	font-size: 12px;
+}
+

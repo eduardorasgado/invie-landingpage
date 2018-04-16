@@ -49,7 +49,7 @@
 	
 	<section class="guitarras contenedor" id="guitarras">
 		<!--guitarras-->
-		<h2>Nuestros modelos exclusivos</h2><!--titulo-->
+		<h2>Nuestros modelos Delux</h2><!--titulo-->
 		<article class="guitarra">
 			<!--Guitarra 1-->
 			<img class="right" src="images/invie-acustica.png" width="350"alt="Guitarra invie 1">
@@ -88,33 +88,54 @@
 		</article>
 	</section>
 	<footer class="footer">
-		<div class="contenedor">
+		<div class="contenedor flex-foot">
 			<div class="contacto">
 			<img src="images/invie-white.png" alt="log-white">
 			<a href="tel:+529543321234"><strong>Teléfono</strong><span>+521 954 332 1234</span></a>
-			<a href="mailto:eduardo.rasgado@outlook.com"><strong>Correo Electrónico</strong><span>eduardo.rasgado@outlook.com</span></a>
+			<a href="mailto:eduardo.rasgado@outlook.com"><strong>Correo Electrónico</strong><span>eduardo.rasgado@hotmail.com</span></a>
 			</div>
-			<form class="formulario">
-				<label for="nombre">Nombre</label>
-				<input id="nombre" type="text" name="name" required>
+			<div>
+				<form class="formulario">
+					
+					<div class="col1">
+						<label for="nombre">Nombre</label>
+						<input id="nombre" type="text" name="name" required>
+					
 
-				<label for="email">Correo Electrónico</label>
-				<input id="email" type="email" name="email" required>
-				
-				<label for="message">Mensaje</label>
-				<textarea id="message" required></textarea>
-				
-				<!--radio button/con el name se prevee un solo seleccionado-->
-				<label for="men"><input id="men" type="radio" name="sexo">Hombre</label>
+					
+						<label for="email">Correo Electrónico</label>
+						<input id="email" type="email" name="email" required>
+						
+						
+						<div class="gender">
+							<!--radio button/con el name se prevee un solo seleccionado-->
+							<label for="men"><input id="men" type="radio" name="sexo" value="hombre">Hombre</label>
 
-				<!--radio button-->
-				<label for="women"><input id="women" type="radio" name="sexo">Mujer</label>
+							<!--radio button-->
+							<label for="women"><input id="women" type="radio" name="sexo" value="mujer" checked>Mujer</label>
+						</div>
+						<div class="intereses">
+							<!--checkbox campo-->
+							<div>
+								<label for="Cotizacion"><input id="Cotizacion" type="checkbox" name="intereses" value="cotizacion" checked>Cotizacion</label>
+								<label for="Reclamos"><input id="Reclamos" type="checkbox" name="intereses" value="reclamos">Reclamos</label>
+							</div>
+							<div>
+								<label for="Comentarios"><input id="Comentarios" type="checkbox" name="intereses" value="comentarios">Comentarios</label>
+								<label for="Otros"><input id="Otros" type="checkbox" name="intereses" value="otros">Otros</label>
+							</div>
+						</div>
+					</div>
 
-				<!--checkbox-->
+					<div class="col2">
+						<label for="message">Mensaje</label>
+						<textarea id="message" cols="30" rows="7" name="message" required></textarea>
 
-
-				<input type="submit" name="" value="Enviar">
-			</form>
+						<!--boton de submit-->
+						<input class="submit" type="submit" name="" value="Enviar">
+					</div>
+				</form>
+			</div>
 		</div>
 	</footer>
 </body>
