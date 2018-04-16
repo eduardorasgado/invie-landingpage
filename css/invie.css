@@ -37,6 +37,7 @@ body {
 
 .title-b {
 	font-size: 50px;
+	margin-bottom: 20px;
 }
 
 .portada {
@@ -70,3 +71,16 @@ body {
 }
 
 
+.contenedor {
+	width: 800px;
+	margin: auto;
+}
+
+/*Flotadores*/
+.guitarra.right img {
+	float: right;
+}
+
+.guitarra.left img {
+	float: left;
+}
