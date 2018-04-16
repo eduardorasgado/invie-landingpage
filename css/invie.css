@@ -76,11 +76,32 @@ body {
 	margin: auto;
 }
 
+.guitarra {
+	margin: 10px;
+	padding: 10px;
+	/*Dos propiedades para estabilizar flotadores*/
+	overflow: hidden;
+	clear: both;
+	border: 1px solid #1F313C;
+}
+
+.guitarra ol {
+	padding: 0;
+}
+
 /*Flotadores*/
-.guitarra.right img {
+.right {
 	float: right;
 }
 
-.guitarra.left img {
+.left {
 	float: left;
+}
+
+.contenedor-guitarra-a {
+	padding-left: 20px;
+}
+
+.contenedor-guitarra-b {
+	margin-left: 370px;
 }
