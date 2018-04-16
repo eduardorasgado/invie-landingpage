@@ -94,9 +94,15 @@
 			<a href="tel:+529543321234"><strong>Teléfono</strong><span>+521 954 332 1234</span></a>
 			<a href="mailto:eduardo.rasgado@outlook.com"><strong>Correo Electrónico</strong><span>eduardo.rasgado@outlook.com</span></a>
 			</div>
-			<div class="formulario">
-				formulario
-			</div>
+			<form class="formulario">
+				<label for="nombre">Nombre</label>
+				<input id="nombre" type="text" name="name" required>
+				<label for="email">Correo Electrónico</label>
+				<input id="email" type="email" name="email" required>
+				<label for="message">Mensaje</label>
+				<textarea id="message" required></textarea>
+				<input type="submit" name="" value="Enviar">
+			</form>
 		</div>
 	</footer>
 </body>
