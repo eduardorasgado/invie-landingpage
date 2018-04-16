@@ -17,6 +17,24 @@ header {
 	position: relative;
 }
 
+button {
+	border-radius: 8px;
+	background-color: #fd324e;
+	color: white;
+	border: 2px solid #fd324e;
+	padding: 5px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+}
+
+button:hover {
+	border-radius: 8px;
+	background-color: #FD3690;
+	color: white;
+	border: solid #FD30A5;
+}
+
 .titulo {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
@@ -51,6 +69,7 @@ header {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-left: 20px;
+	height: 400px;
 }
 
 .portada button {
@@ -75,6 +94,7 @@ header {
 .menu li a {
 	color: black;
 	font-variant: small-caps;
+	text-decoration: none;
 }
 
 
@@ -93,6 +113,7 @@ header {
 	border: 1px solid #1F313C;
 	/*Padre relativo, retiene al hijo absoluto*/
 	/*position: relative;*/
+	border-radius: 8px;
 }
 
 .guitarra ol {
@@ -120,4 +141,23 @@ header {
 
 .contenedor-guitarra-b {
 	margin-left: 370px;
+}
+
+.footer {
+	background-color: #273b47;
+	color: white;
+}
+
+.contacto img {
+	display: block;
+
+}
+
+.contacto strong {
+	display: block;
+	color: white;
+}
+.contacto a {
+	color: white;
+	text-decoration: none;
 }
