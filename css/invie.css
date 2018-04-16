@@ -13,6 +13,10 @@ body {
 	margin: 0px;
 }
 
+header {
+	position: relative;
+}
+
 .titulo {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
@@ -55,6 +59,9 @@ body {
 
 .menu {
 	font-size: 24px;
+	/*Le vale el orden de todo dentro de un contenedor relative*/
+	position: absolute;
+	right: 0;
 }
 
 .logotipo, .menu, .menu li {
@@ -80,22 +87,31 @@ body {
 	margin: 10px;
 	padding: 10px;
 	/*Dos propiedades para estabilizar flotadores*/
-	overflow: hidden;
-	clear: both;
+	/*Overflow se quita para mostrar la position relative del guitarrista*/
+	/*overflow: hidden;*/
+
 	border: 1px solid #1F313C;
+	/*Padre relativo, retiene al hijo absoluto*/
+	/*position: relative;*/
 }
 
 .guitarra ol {
 	padding: 0;
 }
 
-/*Flotadores*/
+/*Flotadores para imagenes*/
 .right {
 	float: right;
+	/*El hijo absoluto se pocisiona dentro del padre relativo*/
+	/*position: absolute;*/
+	position: relative;
+	top: -126px;
 }
 
 .left {
 	float: left;
+	position: relative;
+	top: 80px;
 }
 
 .contenedor-guitarra-a {
