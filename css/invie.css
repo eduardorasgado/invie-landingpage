@@ -211,6 +211,14 @@ button:hover {
 	padding: 25px 10px; 
 }
 
+input, textarea {
+	outline: 0;
+}
+
+input:focus, textarea:focus {
+	background-color: lightgray;
+}
+
 .formulario .submit {
 	border-radius: 8px;
 	color: white;
@@ -287,4 +295,13 @@ table, td, th {
 .tabla {
 	margin-top: 50px;
 	margin-bottom: 50px;
+}
+
+.pricing a button:hover {
+	border: none;
+	background-image: linear-gradient(to right, #fe344e,#ff7250);
+}
+
+.order {
+	padding-left: 350px;
 }
