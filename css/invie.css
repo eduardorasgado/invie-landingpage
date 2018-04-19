@@ -36,6 +36,12 @@ button:hover {
 	background-position: right center;
 }
 
+
+.contenedor {
+	width: 800px;
+	margin: auto;
+}
+
 .titulo {
 	font-family: 'Montserrat', sans-serif;
 	margin: 0;
@@ -56,6 +62,7 @@ button:hover {
 
 .guitarras {
 	color: #1F313C;
+	margin-bottom: 80px;
 }
 
 .guitarras h2 {
@@ -75,7 +82,7 @@ button:hover {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding-left: 20px;
-	height: 400px;
+	height: 500px;
 }
 
 .portada button {
@@ -116,14 +123,8 @@ button:hover {
 	text-decoration: none;
 }
 
-
-.contenedor {
-	width: 800px;
-	margin: auto;
-}
-
 .guitarra {
-	margin: 10px;
+	margin: 10px 10px 30px 10px;
 	padding: 10px;
 	/*Dos propiedades para estabilizar flotadores*/
 	/*Overflow se quita para mostrar la position relative del guitarrista*/
@@ -133,6 +134,10 @@ button:hover {
 	/*Padre relativo, retiene al hijo absoluto*/
 	/*position: relative;*/
 	border-radius: 8px;
+}
+
+.train {
+	height: 210px;
 }
 
 .guitarra ol {
@@ -151,7 +156,6 @@ button:hover {
 .left {
 	float: left;
 	position: relative;
-	top: 140px;
 	width: 350px;
 }
 
@@ -161,6 +165,8 @@ button:hover {
 
 .contenedor-guitarra-b {
 	margin-left: 370px;
+	position: relative;
+	bottom: 45px;
 }
 
 
