@@ -305,3 +305,26 @@ table, td, th {
 .order {
 	padding-left: 350px;
 }
+
+.transicion {
+	transition-duration: .3s;
+}
+
+.opacity {
+	opacity:0.6;
+}
+
+.opacity:hover {
+	opacity: 1;
+}
+
+.rotacion:hover {
+	transform: rotate(720deg);
+}
+
+/*No afecta a los elementos que le rodean*/
+.traslacion:hover {
+	transform: translateX(50px);
+	/*trasnlateY*/
+	/*translate3d(xpx,ypx,zpx)*/
+}
